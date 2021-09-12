@@ -1,0 +1,37 @@
+.contact-jumbo {
+  background: url('https://static.wixstatic.com/media/c837a6_3f53cdbff83b47b19a97bd35c767333c~mv2.jpg/v1/fill/w_1519,h_550,al_c,q_85,usm_0.66_1.00_0.01/c837a6_3f53cdbff83b47b19a97bd35c767333c~mv2.webp')
+    no-repeat center center/cover;
+  min-height: 30vh;
+  padding: 2%;
+  color: #fff;
+  h2 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  left: 0;
+  opacity: 0;
+  animation: slide ease 2s forwards;
+}
+
+input,
+textarea {
+  background: rgb(39, 39, 39) !important;
+  border: 1px solid #8a8a8a !important;
+  &:focus {
+    box-shadow: 4px 4px #fd6262 !important;
+    outline: none !important;
+    border: 2px solid #fd6262 !important;
+  }
+  color: #fff !important;
+}
+button {
+  width: 100%;
+  background: #fd6262 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  padding: 2% !important;
+}

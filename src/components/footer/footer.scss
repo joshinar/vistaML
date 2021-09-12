@@ -1,0 +1,31 @@
+.footer-section {
+  background: #151419;
+  min-height: 200px;
+  padding: 2%;
+  padding-left: 5%;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+
+  svg {
+    width: 80px;
+    height: 30px;
+    margin-left: -2%;
+  }
+  i {
+    color: #fd6262;
+    cursor: pointer;
+  }
+  li {
+    margin: 1%;
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        color: #fd6262;
+      }
+    }
+  }
+}

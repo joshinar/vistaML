@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #151419;
+  padding: 2% 2% 0 5%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  svg {
+    width: 80px;
+    height: 30px;
+    margin-right: -20px;
+  }
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+}
+.menu-section {
+  display: flex;
+  list-style: none;
+  width: 30vw;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  li {
+    cursor: pointer;
+    &:hover {
+      color: #fd6262;
+    }
+  }
+  .contact {
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #fd6262;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: all ease 0.2s;
+    &:hover {
+      background-color: #fd6262;
+      color: #000;
+    }
+  }
+}

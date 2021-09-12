@@ -1,0 +1,58 @@
+.solution-jumbo {
+  background: url('https://static.wixstatic.com/media/c837a6_3f53cdbff83b47b19a97bd35c767333c~mv2.jpg/v1/fill/w_1519,h_550,al_c,q_85,usm_0.66_1.00_0.01/c837a6_3f53cdbff83b47b19a97bd35c767333c~mv2.webp')
+    no-repeat center center/cover;
+  min-height: 30vh;
+  padding: 2%;
+  color: #fff;
+  h2 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+  }
+  left: 0;
+  opacity: 0;
+  animation: slide ease 2s forwards;
+}
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  left: 0;
+  opacity: 0;
+  animation: slide ease 2s forwards;
+  padding: 2%;
+  .service-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    border: 1px solid #3f4349;
+    i {
+      display: grid;
+      place-items: center;
+      font-size: 3rem;
+      color: #fd6262;
+    }
+    .icon {
+      border-right: 1px solid #3f4349;
+      padding: 15% 1%;
+    }
+    .service-desc {
+      padding: 2%;
+      display: grid;
+      place-items: center;
+      h2 {
+        color: #8396de;
+      }
+      p {
+        font-size: 1.2rem;
+        color: rgb(243, 243, 243);
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 5%;
+    opacity: 1;
+  }
+}
